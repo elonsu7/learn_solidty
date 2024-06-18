@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/ethereum/remix-workshops/10.3 Transactions - Sending Ether/sendingEther_answer.sol": "ReceiveEther"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/ethereum/remix-workshops/10.3 Transactions - Sending Ether/sendingEther_answer.sol": {
+			"keccak256": "0x7a73ae600dde868cffabd7b920d28b85716cb7c068a8b17b0509b40301fa859e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8627c0b54834318b2d7aaa88604ef68bda07c34425f4a1e7af0244b4665b21b8",
+				"dweb:/ipfs/QmYrQ7AnkcPhHNhuNALRn7WqsXwwauffHmiN2Ky34HENjG"
+			]
+		}
+	},
+	"version": 1
+}

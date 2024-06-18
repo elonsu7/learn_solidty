@@ -1,0 +1,70 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50606c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b60336035565b005b56fea265627a7a7231582065212f8e15c24208ca5144448b6eee6bfbac3fb2ab85e178e46653fd2782ec8064736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x6C DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6D4CE63C EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 PUSH6 0x212F8E15C242 ADDMOD 0xCA MLOAD DIFFICULTY DIFFICULTY DUP12 PUSH15 0xEE6BFBAC3FB2AB85E178E46653FD27 DUP3 0xEC DUP1 PUSH5 0x736F6C6343 STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "34:114:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:114:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b60336035565b005b56fea265627a7a7231582065212f8e15c24208ca5144448b6eee6bfbac3fb2ab85e178e46653fd2782ec8064736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6D4CE63C EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 PUSH6 0x212F8E15C242 ADDMOD 0xCA MLOAD DIFFICULTY DIFFICULTY DUP12 PUSH15 0xEE6BFBAC3FB2AB85E178E46653FD27 DUP3 0xEC DUP1 PUSH5 0x736F6C6343 STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "34:114:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:114:0;;;;;;;;;;;;;;;;;;;54:92;;;:::i;:::-;;;:::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "21600",
+				"executionCost": "75",
+				"totalCost": "21675"
+			},
+			"external": {
+				"get()": "122"
+			}
+		},
+		"methodIdentifiers": {
+			"get()": "6d4ce63c"
+		}
+	},
+	"abi": [
+		{
+			"constant": false,
+			"inputs": [],
+			"name": "get",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

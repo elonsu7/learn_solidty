@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "get",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/ethereum/remix-workshops/1 Writing_a_Library/1_contractSimpleLibrary.sol": "test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/ethereum/remix-workshops/1 Writing_a_Library/1_contractSimpleLibrary.sol": {
+			"keccak256": "0x0b3c1d6abd17933e3096b85315d326055bed6747189be8f93b3e6cf523ffdec1",
+			"urls": [
+				"bzz-raw://62b79fb02900058c016424adfd9c5fad53a35541d252669b28537e8f6ff69302",
+				"dweb:/ipfs/QmWjmnvSfrRZhYZQKjb2FyC8yaHWRsqWSpT7CuB8sjMjJU"
+			]
+		}
+	},
+	"version": 1
+}
